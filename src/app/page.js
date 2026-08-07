@@ -7,7 +7,7 @@ import Home from "./Home";
 import Product from "./Product";
 import Service from "./Service";
 import Testimoni from "./Testimoni";
-import LogoPartner from "./LogoPartner";
+// import LogoPartner from "./LogoPartner";
 import Footer from "./Footer";
 
 export default function Index() {
