@@ -6,7 +6,7 @@ import Image from "next/image";
 // import { clientsData } from "../Data/data";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
-import "../../node_modules/tiny-slider/dist/tiny-slider.css";
+import "tiny-slider/dist/tiny-slider.css";
 
 export default function Testimoni() {
   const clientsData = [
