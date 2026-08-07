@@ -13,7 +13,7 @@ export default function About() {
               </h6>
               {/* <h3 className="mb-4 text-2xl font-semibold leading-normal md:text-3xl md:leading-normal"> */}
               <h3 className="mb-4 text-2xl font-bold md:text-3xl">
-                Digitalisasi inovatif dan powerful <br /> bersama Idevos
+                Digitalisasi inovatif dan powerful <br /> bersama DTECH
               </h3>
 
               <p className="max-w-xl mb-6 text-slate-500">

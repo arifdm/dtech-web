@@ -48,7 +48,7 @@ export default function Benefit() {
               Benefits
             </h6>
             <h3 className="mb-4 text-2xl font-bold md:text-3xl">
-              Keunggulan Idevos dalam Pengembangan Software
+              Keunggulan DTECH dalam Pengembangan Software
             </h3>
             <p className="text-slate-400">
               Sebagai perusahaan yang telah beroperasi lebih dari satu dekade di

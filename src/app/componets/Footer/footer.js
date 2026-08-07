@@ -75,8 +75,9 @@ export default function Footer() {
                         alt=""
                         style={{
                           maxWidth: "100%",
-                          height: "auto"
-                        }} />
+                          height: "auto",
+                        }}
+                      />
                     </Link>
                     <p className="mt-6 text-gray-300">
                       Kami berkomitmen menjadi mitra terpercaya dalam
@@ -208,12 +209,12 @@ export default function Footer() {
               <div className="text-center md:text-start">
                 <p className="mb-0 text-gray-500">
                   © {new Date().getFullYear()}{" "}
-                  <span className="font-semibold text-gray-400">Idevos</span>.
+                  <span className="font-semibold text-gray-400">DTECH</span>.
                   All Rights Reserved.
                 </p>
               </div>
               <div className="text-center text-gray-500 md:text-end">
-                Yogyakarta - Indonesia
+                Jakarta Selatan - Indonesia
               </div>
             </div>
           </div>

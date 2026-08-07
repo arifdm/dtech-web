@@ -10,21 +10,21 @@ export default function Product({ className }) {
   const dataProduct = [
     {
       id: 1,
-      Image: "/images/product/Menupesan.jpg",
-      title: "Point Of Sales - Menupesan",
-      desc: "Kasir online 'Menupesan' dengan desain modern, fitur lengkap dan harga berlangganan terjangkau",
+      Image: "/images/product/fasto.jpg",
+      title: "FASTO - Platform loyalityas & food ordering",
+      desc: "Platform untuk program loyalty dan pemesanan makanan online, terintegrasi dengan sistem kasir dan pembayaran digital, cocok untuk bisnis kuliner.",
     },
     {
       id: 2,
-      Image: "/images/product/WaPlatform.jpg",
-      title: "Platform WhatsApp Management",
-      desc: "Platform WA Management untuk mitra bisnis (B2B) yang menyediakan layanan WA Manajemen bagi UMKM",
+      Image: "/images/product/DPOSPlus.jpg",
+      title: "DPOS+ - POS Management System",
+      desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
     },
     {
       id: 3,
-      Image: "/images/product/MarketPlace.jpg",
-      title: "Platform Marketplace - Startup",
-      desc: "Platform teknologi dengan model bisnis Marketplace, dibutuhkan pebisnis yang akan membangun startup",
+      Image: "/images/product/faspos.jpg",
+      title: "FASPOS - POS Management System Highly Transactional",
+      desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
     },
   ];
 

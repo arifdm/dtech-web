@@ -15,14 +15,14 @@ export default function Home() {
           <h5 className="mb-3 text-lg font-medium text-white">
             Innovate Deliver Solutions
           </h5>
-          <h3 className="mb-5 text-4xl font-bold leading-normal text-white lg:leading-normal lg:text-6xl">
+          <h3 className="mb-5 text-4xl font-bold leading-normal text-white lg:leading-normal lg:text-7xl">
             Berinovasi Menghadirkan Solusi
           </h3>
 
-          <p className="max-w-xl text-lg text-slate-300">
-            Bersama Idevos, wujudkan transformasi digital dengan solusi
-            inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap
-            produk yang kami tawarkan kepada Anda.
+          <p className="max-w-2xl text-lg text-slate-300">
+            Bersama DTECH, wujudkan transformasi digital dengan solusi inovatif,
+            layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang
+            kami tawarkan kepada Anda.
           </p>
 
           <div className="mt-8">

@@ -21,7 +21,7 @@ export default function Index() {
       <Testimoni />
       <Product />
       <Contact />
-      <LogoPartner />
+      {/* <LogoPartner /> */}
       <Switcher />
       <Footer />
     </>

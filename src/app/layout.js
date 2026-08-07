@@ -46,9 +46,9 @@ const alex = Alex_Brush({
 });
 
 export const metadata = {
-  title: "Idevos - Berinovasi Menghadirkan Solusi",
+  title: "DTECH - Berinovasi Menghadirkan Solusi",
   description:
-    "Bersama Idevos, wujudkan transformasi digital dengan solusi inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang kami tawarkan kepada Anda.",
+    "Bersama DTECH, wujudkan transformasi digital dengan solusi inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang kami tawarkan kepada Anda.",
   author: "BencodeDev - arifdm@gmail.com",
 };
 

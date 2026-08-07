@@ -5,19 +5,19 @@ import Image from "next/image";
 // import { clientsData } from "../Data/data";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
-import "../../../node_modules/tiny-slider/dist/tiny-slider.css";
+import "tiny-slider/dist/tiny-slider.css";
 
 export default function ClientsOne() {
   const clientsData = [
     {
       description:
-        " Selama berparner dengan Idevos kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
+        " Selama berparner dengan DTECH kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
       image: "/images/client/07.jpg",
       name: "Dian M",
       role: "Bencode Dev",
     },
     {
-      description: ` Saya sangat bersyukur bisa terlihat di Idevos melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
+      description: ` Saya sangat bersyukur bisa terlihat di DTECH melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
       image: "/images/client/01.jpg",
       name: "Xanzhu",
       role: "JS Developer",
@@ -31,7 +31,7 @@ export default function ClientsOne() {
     },
     {
       description:
-        " Saya dan perusahaan sangat terbantu dengan adanya TIM Idevos, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
+        " Saya dan perusahaan sangat terbantu dengan adanya TIM DTECH, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
       image: "/images/client/04.jpg",
       name: "Diman A.",
       role: "M Travel",
@@ -119,8 +119,9 @@ export default function ClientsOne() {
                         width: "100%",
                         height: "auto",
                         maxWidth: "100%",
-                        height: "auto"
-                      }} />
+                        height: "auto",
+                      }}
+                    />
                     <h6 className="mt-2 font-semibold">{item.name}</h6>
                     <span className="text-sm text-slate-400">{item.role}</span>
                   </div>

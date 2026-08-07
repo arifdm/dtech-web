@@ -166,9 +166,9 @@ export default function Footer() {
                     <div className="mt-2 text-sm text-gray-400">
                       Call & Message:
                     </div>
-                    <p className="font-bold text-gray-300">0897 5835 238</p>
+                    <p className="font-bold text-gray-300">0821 42000 908</p>
                     <div className="mt-1 text-sm text-gray-400">Email:</div>
-                    <p className="font-bold text-gray-300">contact@idevos.id</p>
+                    <p className="font-bold text-gray-300">contact@dtech.id</p>
                   </div>
                 </div>
               </div>
@@ -181,12 +181,12 @@ export default function Footer() {
               <div className="text-center md:text-start">
                 <p className="mb-0 text-gray-500">
                   © {new Date().getFullYear()}{" "}
-                  <span className="font-semibold text-gray-400">IDEVOS</span>.
+                  <span className="font-semibold text-gray-400">DTECH</span>.
                   All Rights Reserved.
                 </p>
               </div>
               <div className="text-center text-gray-500 md:text-end">
-                Yogyakarta - Indonesia
+                Jakarta Selatan - Indonesia
               </div>
             </div>
           </div>

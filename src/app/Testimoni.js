@@ -12,14 +12,14 @@ export default function Testimoni() {
   const clientsData = [
     {
       description:
-        " Selama berparner dengan Idevos kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
+        " Selama berparner dengan DTECH kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
       image: "/images/client/07.jpg",
       name: "Dian M",
       role: "Bencode Dev",
       star: 5,
     },
     {
-      description: ` Saya sangat bersyukur bisa terlihat di Idevos melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
+      description: ` Saya sangat bersyukur bisa terlihat di DTECH melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
       image: "/images/client/01.jpg",
       name: "Xanzhu",
       role: "JS Developer",
@@ -35,7 +35,7 @@ export default function Testimoni() {
     },
     {
       description:
-        " Saya dan perusahaan sangat terbantu dengan adanya TIM Idevos, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
+        " Saya dan perusahaan sangat terbantu dengan adanya TIM DTECH, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
       image: "/images/client/04.jpg",
       name: "Diman A.",
       role: "M Travel",

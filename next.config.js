@@ -5,7 +5,7 @@ const nextConfig = {
   //     return [
   //       {
   //         source: "/api/:path*",
-  //         destination: "https://idevos.id/api/:path*", // Proxy ke server API
+  //         destination: "https://dtech.id/api/:path*", // Proxy ke server API
   //       },
   //     ];
   //   },
