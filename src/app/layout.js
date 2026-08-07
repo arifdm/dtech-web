@@ -49,7 +49,6 @@ export const metadata = {
   title: "DTECH - Berinovasi Menghadirkan Solusi",
   description:
     "Bersama DTECH, wujudkan transformasi digital dengan solusi inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang kami tawarkan kepada Anda.",
-  author: "BencodeDev - arifdm@gmail.com",
 };
 
 export default function RootLayout({ children }) {

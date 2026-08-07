@@ -18,7 +18,7 @@ export default function Product({ className }) {
       id: 2,
       Image: "/images/product/DPOS.jpg",
       title: "DPOS+ - POS Management System",
-      desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
+      desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO. Cocok untuk bisnis kuliner dan retail yang ingin meningkatkan penjualan dan efisiensi operasional.",
     },
     {
       id: 3,
@@ -29,19 +29,19 @@ export default function Product({ className }) {
     {
       id: 4,
       Image: "/images/product/HRM.jpg",
-      title: "Human Resource Management Platform",
+      title: "Human Resource Management",
       desc: "Platform manajemen sumber daya manusia (SDM) yang membantu perusahaan dalam mengelola karyawan, absensi, cuti, dan penggajian secara efisien.",
     },
     {
       id: 5,
       Image: "/images/product/FRM.jpg",
-      title: "Finance Resource Management Platform",
+      title: "Finance Resource Management",
       desc: "Finance & Cash Management Platform yang membantu perusahaan dalam mengelola keuangan, arus kas, dan laporan keuangan secara efisien dan akurat.",
     },
     {
       id: 6,
-      Image: "/images/no-image.png",
-      title: "Support Management Platform",
+      Image: "/images/product/Support.jpg",
+      title: "Support Management",
       desc: "Platform manajemen dukungan pelanggan yang membantu perusahaan dalam mengelola tiket dukungan, komunikasi dengan pelanggan, dan pemecahan masalah secara efisien.",
     },
   ];
