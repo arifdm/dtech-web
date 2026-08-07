@@ -163,12 +163,11 @@ export default function Footer() {
                     <p className="mt-6 text-sm text-gray-400">
                       Silakan hubungi kami melalui kontak di bawah ini
                     </p>
-                    <div className="mt-2 text-sm text-gray-400">
-                      Call & Message:
-                    </div>
+                    <br />
+                    <div className="mt-2 text-sm text-gray-400">Whatsapp:</div>
                     <p className="font-bold text-gray-300">0821 42000 908</p>
-                    <div className="mt-1 text-sm text-gray-400">Email:</div>
-                    <p className="font-bold text-gray-300">contact@dtech.id</p>
+                    {/* <div className="mt-1 text-sm text-gray-400">Email:</div>
+                    <p className="font-bold text-gray-300">contact@dtech.id</p> */}
                   </div>
                 </div>
               </div>

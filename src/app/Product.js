@@ -16,13 +16,13 @@ export default function Product({ className }) {
     },
     {
       id: 2,
-      Image: "/images/product/DPOSPlus.jpg",
+      Image: "/images/product/DPOS.jpg",
       title: "DPOS+ - POS Management System",
       desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
     },
     {
       id: 3,
-      Image: "/images/product/Faspos.jpg",
+      Image: "/images/no-image.png",
       title: "FASPOS - POS Highly Transactional",
       desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
     },
@@ -40,7 +40,7 @@ export default function Product({ className }) {
     },
     {
       id: 6,
-      Image: "/images/product/Support.jpg",
+      Image: "/images/no-image.png",
       title: "Support Management Platform",
       desc: "Platform manajemen dukungan pelanggan yang membantu perusahaan dalam mengelola tiket dukungan, komunikasi dengan pelanggan, dan pemecahan masalah secara efisien.",
     },
