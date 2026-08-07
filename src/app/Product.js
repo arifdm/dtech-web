@@ -22,9 +22,27 @@ export default function Product({ className }) {
     },
     {
       id: 3,
-      Image: "/images/product/faspos.jpg",
-      title: "FASPOS - POS Management System Highly Transactional",
+      Image: "/images/product/Faspos.jpg",
+      title: "FASPOS - POS Highly Transactional",
       desc: "Aplikasi Point of Sale (POS) dengan fitur lengkap, terintegrasi dengan FASTO untuk program loyalty dan pemesanan makanan online. Cocok untuk bisnis kuliner dan retail.",
+    },
+    {
+      id: 4,
+      Image: "/images/product/HRM.jpg",
+      title: "Human Resource Management Platform",
+      desc: "Platform manajemen sumber daya manusia (SDM) yang membantu perusahaan dalam mengelola karyawan, absensi, cuti, dan penggajian secara efisien.",
+    },
+    {
+      id: 5,
+      Image: "/images/product/FRM.jpg",
+      title: "Finance Resource Management Platform",
+      desc: "Finance & Cash Management Platform yang membantu perusahaan dalam mengelola keuangan, arus kas, dan laporan keuangan secara efisien dan akurat.",
+    },
+    {
+      id: 6,
+      Image: "/images/product/Support.jpg",
+      title: "Support Management Platform",
+      desc: "Platform manajemen dukungan pelanggan yang membantu perusahaan dalam mengelola tiket dukungan, komunikasi dengan pelanggan, dan pemecahan masalah secara efisien.",
     },
   ];
 
@@ -49,7 +67,7 @@ export default function Product({ className }) {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-8 gap-[30px]">
-          {dataProduct.slice(0, 3).map((data, index) => {
+          {dataProduct.slice(0, 6).map((data, index) => {
             return (
               <div
                 className="relative overflow-hidden rounded-md shadow blog dark:shadow-gray-800"

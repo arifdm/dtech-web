@@ -12,24 +12,24 @@ export default function Testimoni() {
   const clientsData = [
     {
       description:
-        " Selama berparner dengan DTECH kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
+        " Selama berpartner dengan DTECH kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
       image: "/images/client/07.jpg",
-      name: "Dian M",
+      name: "Arif Dian",
       role: "Bencode Dev",
       star: 5,
     },
     {
-      description: ` Saya sangat bersyukur bisa terlihat di DTECH melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
+      description: ` Saya sangat bersyukur bisa terlibat di DTECH melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
       image: "/images/client/01.jpg",
-      name: "Xanzhu",
-      role: "JS Developer",
+      name: "Arsyad",
+      role: "Fullstack Developer",
       star: 4,
     },
     {
       description:
         "  Pekerjaan yang dishare ke saya sangat menyenangkan dan sangat menarik sesuai dengan keinginan dan harapan saya.",
       image: "/images/client/06.jpg",
-      name: "Malik A.",
+      name: "Nadella Amelia",
       role: "Fullstack Developer",
       star: 3,
     },
@@ -37,8 +37,8 @@ export default function Testimoni() {
       description:
         " Saya dan perusahaan sangat terbantu dengan adanya TIM DTECH, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
       image: "/images/client/04.jpg",
-      name: "Diman A.",
-      role: "M Travel",
+      name: "Wisang",
+      role: "Dbesto",
       star: 4,
     },
   ];
