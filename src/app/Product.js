@@ -1,12 +1,21 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 // import { blogData } from "../Data/data";
 
 import { FaArrowRight } from "react-icons/fa";
 
+const modalStyle = {
+  animation: "zoomInModal 0.25s ease-out forwards",
+};
+
 export default function Product({ className }) {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openImageModal = (image) => setSelectedImage(image);
+  const closeImageModal = () => setSelectedImage(null);
+
   const dataProduct = [
     {
       id: 1,
@@ -75,16 +84,17 @@ export default function Product({ className }) {
               >
                 <Image
                   src={data.Image}
-                  width={0}
-                  height={0}
-                  alt=""
-                  sizes="100vw"
+                  width={800}
+                  height={500}
+                  alt={data.title}
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="w-full h-auto object-cover cursor-zoom-in"
                   style={{
                     width: "100%",
                     height: "auto",
                     maxWidth: "100%",
-                    height: "auto",
                   }}
+                  onClick={() => openImageModal(data.Image)}
                 />
 
                 <div className="p-6 bg-white content dark:bg-slate-900">
@@ -106,6 +116,32 @@ export default function Product({ className }) {
           })}
         </div>
       </div>
+
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/80 p-4 transition-opacity duration-300"
+          onClick={closeImageModal}
+        >
+          <div
+            className="relative w-full max-w-5xl rounded-lg bg-white p-3 shadow-2xl"
+            style={modalStyle}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={closeImageModal}
+              className="absolute right-2 top-2 z-10 rounded-full bg-white/90 px-3 py-1 text-sm font-semibold text-slate-700 shadow hover:bg-white"
+            >
+              ✕
+            </button>
+            <img
+              src={selectedImage}
+              alt="Gambar produk yang diperbesar"
+              className="max-h-[80vh] w-full rounded-md object-contain"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
