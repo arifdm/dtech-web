@@ -28,7 +28,7 @@ export default function Testimoni() {
     {
       description:
         "  Pekerjaan yang dishare ke saya sangat menyenangkan dan sangat menarik sesuai dengan keinginan dan harapan saya.",
-      image: "/images/client/06.jpg",
+      image: "/images/client/03.jpg",
       name: "Nadella Amelia",
       role: "Fullstack Developer",
       star: 3,

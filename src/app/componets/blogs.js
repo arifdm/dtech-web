@@ -36,7 +36,7 @@ export default function Blogs({ className }) {
             Featured Products
           </h6>
           <h3 className="mb-4 text-2xl font-semibold leading-normal md:text-3xl md:leading-normal">
-            SaaS & Platform
+            Latest Products & Services
           </h3>
         </div>
 
@@ -65,8 +65,9 @@ export default function Blogs({ className }) {
                   width: "100%",
                   height: "auto",
                   maxWidth: "100%",
-                  height: "auto"
-                }} />
+                  height: "auto",
+                }}
+              />
 
               <div className="p-6 bg-white content dark:bg-slate-900">
                 <div className="text-lg font-bold duration-500 ease-in-out title h5 hover:text-blue-800">

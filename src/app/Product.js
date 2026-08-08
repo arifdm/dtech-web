@@ -55,7 +55,7 @@ export default function Product({ className }) {
               Featured Products
             </h6>
             <h3 className="mb-4 text-2xl font-bold md:text-3xl">
-              SaaS & Platform
+              Latest Products & Services
             </h3>
           </div>
 
