@@ -12,33 +12,33 @@ export default function Testimoni() {
   const clientsData = [
     {
       description:
-        " Selama berpartner dengan DTECH kami dapat bekerja sama dengan nyaman sesuai dengan tanggung jawab masing-masing. ",
+        " Saya menemukan aplikasi support management dari DTECH sangat membantu dalam mengelola tiket dukungan pelanggan. Fitur-fiturnya sangat lengkap dan mudah digunakan. Terima kasih DTECH! ",
       image: "/images/client/07.jpg",
       name: "Arif Dian",
       role: "Bencode Dev",
       star: 5,
     },
     {
-      description: ` Saya sangat bersyukur bisa terlibat di DTECH melalui project yang saya kerjakan karena dapat membantu perkembangan belajar pada pekerjaan sesungguhnya. `,
+      description: ` Selama resto saya menggunakan FASTO, pelangan online jadi lebih mudah memesan makanan, dan saya dapat mengelola pesanan dengan lebih efisien. Terima kasih DTECH! `,
       image: "/images/client/01.jpg",
-      name: "Arsyad",
-      role: "Fullstack Developer",
+      name: "Nurul Huda",
+      role: "Owner Resto",
       star: 4,
     },
     {
       description:
-        "  Pekerjaan yang dishare ke saya sangat menyenangkan dan sangat menarik sesuai dengan keinginan dan harapan saya.",
+        " Awalnya resto saya menggunakan aplikasi lain, namun setelah mencoba DPOS+ dari DTECH, saya merasa sangat puas dengan fitur dan kemudahan penggunaannya. Terima kasih DTECH! ",
       image: "/images/client/03.jpg",
-      name: "Nadella Amelia",
-      role: "Fullstack Developer",
+      name: "Nia Rahmawati",
+      role: "Owner Resto",
       star: 3,
     },
     {
       description:
-        " Saya dan perusahaan sangat terbantu dengan adanya TIM DTECH, karena setiap keinginan dan perubahan fitur pekerjaan dapat terpenuhi dengan baik. ",
+        " DTECH telah membantu kami dalam mengelola bisnis kuliner kami dengan lebih efisien dan efektif. Terima kasih DTECH! ",
       image: "/images/client/04.jpg",
-      name: "Wisang",
-      role: "Dbesto",
+      name: "Alex Malik",
+      role: "Manajemen Resto",
       star: 4,
     },
   ];
