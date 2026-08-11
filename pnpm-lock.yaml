@@ -32,6 +32,9 @@ importers:
       eslint-config-next:
         specifier: 13.4.12
         version: 13.4.12(eslint@8.46.0)(typescript@7.0.2)
+      google:
+        specifier: link:@next/third-parties/google
+        version: link:@next/third-parties/google
       install:
         specifier: ^0.13.0
         version: 0.13.0

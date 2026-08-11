@@ -49,6 +49,31 @@ export const metadata = {
   title: "DTECH - Berinovasi Menghadirkan Solusi",
   description:
     "Bersama DTECH, wujudkan transformasi digital dengan solusi inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang kami tawarkan kepada Anda.",
+  keywords: [
+    "DTECH",
+    "Digital Transformation",
+    "Innovative Solutions",
+    "Quality Services",
+    "Software Development",
+    "Web Development",
+    "Mobile App Development",
+    "UI/UX Design",
+    "Digital Marketing",
+    "E-commerce Solutions",
+    "Data Analytics",
+    "IT Consulting",
+    "Custom Software Solutions",
+    "Business Process Automation",
+    "Digital Strategy",
+    "Technology Solutions",
+    "Innovation and Technology",
+    "FASTO",
+    "DPOS+",
+    "FASPOS",
+    "Human Resource Management",
+    "Finance Resource Management",
+    "Support Management",
+  ],
 };
 
 export default function RootLayout({ children }) {
