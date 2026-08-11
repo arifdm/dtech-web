@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${nunito.variable} ${work_sans.variable} ${eb_garamond.variable} ${kaushan.variable} ${alex.variable} font-nunito text-base text-black dark:text-white dark:bg-slate-900`}
       >
-        <GoogleAnalytics gaId="GTM-KZCHB4WQ" />
+        <GoogleAnalytics gaId="G-PMC5DL7PXB" />
         <NextTopLoader color={"text-blue-800"} showSpinner={false} />
         <Suspense fallback={<div />}>
           <ReactQueryProvider>
