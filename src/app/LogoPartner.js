@@ -29,7 +29,7 @@ export default function LogoPartner() {
               src="/images/client/fasto.png"
               width={200}
               height={80}
-              className="w-[200px] h-auto object-contain"
+              className="w-[200px] h-auto object-contain filter grayscale hover:grayscale-0 transition duration-300 ease-in-out"
               alt="Logo FASTO"
               sizes="100vw"
               style={{
@@ -43,7 +43,7 @@ export default function LogoPartner() {
               src="/images/client/dpos.png"
               width={200}
               height={80}
-              className="w-[200px] h-auto object-contain"
+              className="w-[200px] h-auto object-contain filter grayscale hover:grayscale-0 transition duration-300 ease-in-out"
               alt="Logo DPOS+"
               sizes="100vw"
               style={{
@@ -57,7 +57,7 @@ export default function LogoPartner() {
               src="/images/client/support.png"
               width={200}
               height={80}
-              className="w-[200px] h-auto object-contain"
+              className="w-[200px] h-auto object-contain filter grayscale hover:grayscale-0 transition duration-300 ease-in-out"
               alt="Logo Support"
               sizes="100vw"
               style={{
@@ -76,7 +76,7 @@ export default function LogoPartner() {
                 src="/images/client/faspos.png"
                 width={200}
                 height={80}
-                className="w-[200px] h-auto object-contain"
+                className="w-[200px] h-auto object-contain filter grayscale hover:grayscale-0 transition duration-300 ease-in-out"
                 alt="Logo FASPOS"
                 sizes="100vw"
                 style={{

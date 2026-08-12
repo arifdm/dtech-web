@@ -165,7 +165,13 @@ export default function Footer() {
                     </p>
                     <br />
                     <div className="mt-2 text-sm text-gray-400">Whatsapp:</div>
-                    <p className="font-bold text-gray-300">0821 42000 908</p>
+                    <Link
+                      href="https://wa.me/6282142000908?text=Saya%20tertarik%20dengan%20DTECH"
+                      target="_blank"
+                      className="font-bold text-gray-300 hover:text-gray-100 transition duration-200"
+                    >
+                      0821 42000 908
+                    </Link>
                     {/* <div className="mt-1 text-sm text-gray-400">Email:</div>
                     <p className="font-bold text-gray-300">contact@dtech.id</p> */}
                   </div>
