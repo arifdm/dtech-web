@@ -166,7 +166,7 @@ export default function Footer() {
                     <br />
                     <div className="mt-2 text-sm text-gray-400">Whatsapp:</div>
                     <Link
-                      href="https://wa.me/6282142000908?text=Saya%20tertarik%20dengan%20DTECH"
+                      href="https://wa.me/6282142000908?text=Saya%20[nama kamu]%20tertarik%20dengan%20produk%20[nama produk]%20DTECH"
                       target="_blank"
                       className="font-bold text-gray-300 hover:text-gray-100 transition duration-200"
                     >
