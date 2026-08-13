@@ -46,12 +46,7 @@ export default function Contact() {
       try {
         const res = await axios.post(
           `${process.env.NEXT_PUBLIC_BASE_API_URL}/api/contact`,
-          { name: values.name, email: values.email, message: values.message },
-          {
-            headers: {
-              Authorization: process.env.API_SECRET,
-            },
-          },
+          { name: values.name, email: values.email, message: values.message }
         );
 
         // Validasi respons

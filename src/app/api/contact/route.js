@@ -35,21 +35,7 @@ export async function GET(request) {
 
 export async function POST(request, { params }) {
   const { name, email, message } = await request.json();
-  const authHeader = request.headers.get("Authorization");
-
-  if (!authHeader) {
-    return NextResponse.json({
-      status: false,
-      error: "Unauthorized Access...!",
-    });
-  }
-
-  if (authHeader !== process.env.API_SECRET) {
-    return NextResponse.json({
-      status: false,
-      error: "Authorized Access Failed...!",
-    });
-  }
+  // Public endpoint for contact form submissions (no Authorization required)
 
   if (!name || !email || !message) {
     return NextResponse.json({
