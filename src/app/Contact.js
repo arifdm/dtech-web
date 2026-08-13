@@ -51,7 +51,7 @@ export default function Contact() {
             headers: {
               Authorization: process.env.API_SECRET,
             },
-          }
+          },
         );
 
         // Validasi respons
