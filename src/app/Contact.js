@@ -44,20 +44,26 @@ export default function Contact() {
       reset();
 
       try {
-        const res = await axios.post(
-          `${process.env.NEXT_PUBLIC_BASE_API_URL}/api/contact`,
-          { name: values.name, email: values.email, message: values.message }
-        );
+        const res = await axios.post("/api/contact", {
+          name: values.name,
+          email: values.email,
+          message: values.message,
+        });
 
-        // Validasi respons
-        if (res.status === 200 && res.data.status) {
-          toast.success("Terima kasih telah menghubungi kami");
+        if (res?.data?.status) {
+          toast.success(
+            res.data.message || "Terima kasih telah menghubungi kami",
+          );
         } else {
-          toast.error(res.data.error || "Terjadi kesalahan");
+          toast.error(res?.data?.error || "Terjadi kesalahan");
         }
       } catch (error) {
-        toast.error("Terjadi kesalahan saat mengirim pesan");
-        console.error("Error fetching data: ", error);
+        console.error("Contact send error:", error);
+        const serverMsg =
+          error?.response?.data?.error ||
+          error?.response?.data?.details ||
+          error?.message;
+        toast.error(serverMsg || "Terjadi kesalahan saat mengirim pesan");
       }
     },
   });

@@ -45,7 +45,16 @@ export async function POST(request, { params }) {
   }
 
   try {
-    await prisma.contact.create({ data: { name, email, message } });
+    console.log("Contact payload:", { name, email, message });
+    const disableDb =
+      process.env.DISABLE_DB === "true" || !process.env.DATABASE_URL;
+    if (!disableDb) {
+      await prisma.contact.create({ data: { name, email, message } });
+    } else {
+      console.log(
+        "DISABLE_DB=true or DATABASE_URL missing — skipping DB write for contact",
+      );
+    }
 
     const recipient =
       process.env.CONTACT_RECIPIENT || "aplikasifasto@gmail.com";
@@ -106,10 +115,15 @@ export async function POST(request, { params }) {
       emailError,
     });
   } catch (error) {
-    // console.log("ERROR: ", error);
+    console.error("Create contact error:", error);
+    const details =
+      process.env.NODE_ENV !== "production"
+        ? String(error?.stack || error?.message || error)
+        : String(error?.message || error);
     return NextResponse.json({
       status: false,
       error: "Create Contact Failed...!",
+      details,
     });
   }
 }
