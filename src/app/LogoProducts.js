@@ -8,7 +8,7 @@ export default function LogoProducts() {
       id="partner"
       className="relative py-12 lg:py-16 lg:px-0 px-6 dark:bg-slate-800 border-t border-slate-200"
     >
-      <div className="grid grid-cols-1 pb-8 text-center">
+      {/* <div className="grid grid-cols-1 pb-8 text-center">
         <h3 className="mb-4 text-2xl font-semibold leading-normal md:text-3xl md:leading-normal" />
         <h3 className="mb-4 text-2xl font-bold md:text-3xl">
           Our Products & Platforms
@@ -17,7 +17,7 @@ export default function LogoProducts() {
           Berikut di bawah ini produk dan platform yang kami kembangkan untuk
           membantu bisnis Anda bertransformasi dan berkembang lebih pesat.
         </p>
-      </div>
+      </div> */}
       <div className="flex justify-center">
         <div className="grid md:grid-cols-4 grid-cols-2 justify-items-center gap-[30px] lg:gap-[60px]">
           <Link
