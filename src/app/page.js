@@ -23,8 +23,8 @@ export default function Index() {
       <Benefit />
       <Testimoni />
       <Product />
-      <Contact />
       <LogoProducts />
+      <Contact />
       <LogoPartner />
       <Switcher />
       <Footer />

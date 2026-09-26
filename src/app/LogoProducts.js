@@ -6,7 +6,7 @@ export default function LogoProducts() {
   return (
     <div
       id="partner"
-      className="container relative py-12 lg:py-16 lg:px-0 px-6"
+      className="relative py-12 lg:py-16 lg:px-0 px-6 dark:bg-slate-800 border-t border-slate-200"
     >
       <div className="grid grid-cols-1 pb-8 text-center">
         <h3 className="mb-4 text-2xl font-semibold leading-normal md:text-3xl md:leading-normal" />
