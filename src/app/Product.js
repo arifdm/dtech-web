@@ -20,8 +20,8 @@ export default function Product({ className }) {
   const dataProduct = [
     {
       id: 1,
+      title: "FASTO - Platform loyality & food ordering",
       Image: "/images/product/fasto.jpg",
-      title: "FASTO - Platform loyalityas & food ordering",
       desc: "Platform untuk program loyalty dan pemesanan makanan online, terintegrasi dengan sistem kasir dan pembayaran digital, cocok untuk bisnis kuliner.",
     },
     {

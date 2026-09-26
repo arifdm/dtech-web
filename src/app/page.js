@@ -10,6 +10,7 @@ import Testimoni from "./Testimoni";
 import LogoPartner from "./LogoPartner";
 import Footer from "./Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import LogoProducts from "./LogoProducts";
 
 export default function Index() {
   return (
@@ -23,6 +24,7 @@ export default function Index() {
       <Testimoni />
       <Product />
       <Contact />
+      <LogoProducts />
       <LogoPartner />
       <Switcher />
       <Footer />

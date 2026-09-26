@@ -3,7 +3,7 @@ import Counter from "./componets/AboutUs/counter";
 
 export default function About() {
   return (
-    <section id="about" className="relative bg-gray-50 dark:bg-slate-800">
+    <section id="about" className="relative bg-slate-100 dark:bg-slate-800">
       <div className="container py-16">
         <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
           <div className="md:col-span-6">

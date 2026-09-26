@@ -73,7 +73,7 @@ export default function Testimoni() {
   return (
     <section
       id="testimonial"
-      className="relative py-16 md:py-24 bg-gray-50 dark:bg-slate-800"
+      className="relative py-16 md:py-24 bg-slate-100 dark:bg-slate-800"
     >
       <div className="container relative" id="review">
         <div className="grid grid-cols-1 pb-8 text-center">

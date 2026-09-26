@@ -73,7 +73,10 @@ export default function Contact() {
   });
 
   return (
-    <section id="contact" className="relative py-16 overflow-hidden bg-gray-50">
+    <section
+      id="contact"
+      className="relative py-16 overflow-hidden bg-slate-100 dark:bg-slate-800"
+    >
       <div className="container relative">
         <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
           <div className="lg:col-span-5 md:col-span-6">
