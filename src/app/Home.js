@@ -15,7 +15,7 @@ export default function Home() {
           <h5 className="mb-3 text-lg font-medium text-white">
             Berinovasi Menghadirkan Solusi
           </h5>
-          <h3 className="mb-5 text-5xl font-bold leading-tight text-white lg:leading-normal lg:text-7xl">
+          <h3 className="mb-5 text-5xl font-bold leading-tight text-white lg:leading-normal lg:text-[80px]">
             Innovate Deliver Solutions
           </h3>
 
