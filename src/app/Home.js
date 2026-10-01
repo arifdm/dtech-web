@@ -13,10 +13,10 @@ export default function Home() {
       <div className="container relative">
         <div className="grid grid-cols-1 mt-10">
           <h5 className="mb-3 text-lg font-medium text-white">
-            Innovate Deliver Solutions
+            Berinovasi Menghadirkan Solusi
           </h5>
           <h3 className="mb-5 text-5xl font-bold leading-tight text-white lg:leading-normal lg:text-7xl">
-            Berinovasi Menghadirkan Solusi
+            Innovate Deliver Solutions
           </h3>
 
           <p className="max-w-3xl text-lg text-slate-300">
