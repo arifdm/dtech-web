@@ -17,7 +17,7 @@ export default function Home() {
             transformasi.
           </h5>
           <h3 className="mb-5 text-5xl font-bold leading-tight text-white lg:leading-normal lg:text-[80px]">
-            Innovate Deliver Transform
+            Innovate. Deliver. Transform.
           </h3>
 
           <p className="max-w-3xl text-lg text-slate-300">
