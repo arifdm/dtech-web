@@ -46,7 +46,8 @@ const alex = Alex_Brush({
 });
 
 export const metadata = {
-  title: "DTECH - Berinovasi Menghadirkan Solusi",
+  title:
+    "DTECH - Menciptakan inovasi, mewujudkan solusi, dan menghasilkan transformasi",
   description:
     "Bersama DTECH, wujudkan transformasi digital dengan solusi inovatif, layanan berkualitas, dan jaminan kepuasan untuk setiap produk yang kami tawarkan kepada Anda.",
   keywords: [
@@ -73,6 +74,13 @@ export const metadata = {
     "Human Resource Management",
     "Finance Resource Management",
     "Support Management",
+    "Dbesto",
+    "Lazatto",
+    "Dbakso",
+    "Ngeumi",
+    "Droasting",
+    "Fasto",
+    "Dbesto Group",
   ],
 };
 
