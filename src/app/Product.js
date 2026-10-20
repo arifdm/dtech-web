@@ -8,7 +8,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
 const modalStyle = {
-  animation: "zoomInModal 0.25s ease-out forwards",
+  animation: "zoomInModal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
 };
 
 export default function Product({ className }) {
@@ -83,20 +83,22 @@ export default function Product({ className }) {
                 className="relative overflow-hidden rounded-md shadow blog dark:shadow-gray-800"
                 key={index}
               >
-                <Image
-                  src={data.Image}
-                  width={800}
-                  height={500}
-                  alt={data.title}
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="w-full h-auto object-cover cursor-zoom-in"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    maxWidth: "100%",
-                  }}
-                  onClick={() => openImageModal(data.Image)}
-                />
+                <div className="group overflow-hidden">
+                  <Image
+                    src={data.Image}
+                    width={800}
+                    height={500}
+                    alt={data.title}
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="w-full h-auto object-cover cursor-zoom-in transition-transform duration-500 ease-in-out group-hover:scale-110"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      maxWidth: "100%",
+                    }}
+                    onClick={() => openImageModal(data.Image)}
+                  />
+                </div>
 
                 <div className="p-6 bg-white content dark:bg-slate-900">
                   <div className="text-lg font-bold duration-500 ease-in-out title h5 hover:text-blue-800">
@@ -120,7 +122,8 @@ export default function Product({ className }) {
 
       {selectedImage && (
         <div
-          className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/80 p-4 transition-opacity duration-300"
+          className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/80 p-4"
+          style={{ animation: "fadeInModal 0.6s ease-out forwards" }}
           onClick={closeImageModal}
         >
           <div
@@ -135,11 +138,15 @@ export default function Product({ className }) {
             >
               ✕
             </button>
-            <img
-              src={selectedImage}
-              alt="Gambar produk yang diperbesar"
-              className="max-h-[80vh] w-full rounded-md object-contain"
-            />
+            <div className="group overflow-hidden rounded-md">
+              <Image
+                src={selectedImage}
+                alt="Gambar produk yang diperbesar"
+                width={1600}
+                height={1000}
+                className="max-h-[80vh] w-full rounded-md object-contain"
+              />
+            </div>
           </div>
         </div>
       )}
